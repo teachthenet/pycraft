@@ -1,18 +1,35 @@
 ##### To Run
-Decide on a username you want to use.
 
-Double click Minecraft_Launcher.jar, choose Release 1.8.7
-```
-- In the bottom left, type in your chosen username.
-- In the bottom left, choose Release 1.8.7
-- If the button in the bottom middle says "Install", click it.
-- Now click the button in the bottom middle that says Play.
-- Click Multiplayer.
-- Click Direct Connect.
-- Type in "162.244.165.151:58331" and hit connect
-```
+In a file browser, double click Minecraft Launcher.jar
 
-Now open lesson1.py in your favorite code editor and follow the comments in there to get started!
+![](http://teachthe.net/topclipbox/2016-03-03_14-23-00KXC3CT.png)
+
+In the bottom left, decide upon and enter a username for yourself
+
+![](http://teachthe.net/topclipbox/2016-03-03_14-23-20PLF8N2.png)
+
+Also in the bottom left, select Release 1.8.8
+![](http://teachthe.net/topclipbox/2016-03-03_14-21-47BAP7OT.png)
+
+Click Install
+![](http://teachthe.net/topclipbox/2016-03-03_14-24-41Z42XWT.png)
+
+Once the game launches, select Multiplayer
+![](http://teachthe.net/topclipbox/2016-03-03_14-25-17IJ9FWJ.png)
+
+Then select Direct Connect
+![](http://teachthe.net/topclipbox/2016-03-03_14-25-36Z7C2ZV.png)
+
+Now you will need to enter the IP of the server.
+- If you are using my server, type in 162.244.165.151:58331
+- If you are running the server locally, type in 127.0.0.1
+- If your instructor is running a server somewhere, they will provide you with the IP to type in.
+![](http://teachthe.net/topclipbox/2016-03-03_14-25-53XIX7K9.png)
+
+Now click Join Server!
+![](http://teachthe.net/topclipbox/2016-03-03_14-27-3797QL8G.png)
+
+Now open lesson1.py in your code editor and follow the comments in there to get started!
 
 ##### Minecraft API
 - [pi version](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) Has most of the basics of the python api
