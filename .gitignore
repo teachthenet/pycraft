@@ -1,0 +1,15 @@
+worlds/*
+db/*
+*.pyc
+.DS_Store
+*.gz
+crash-reports/*
+logs/*
+world/*
+world_nether/*
+world_the_end/*
+logs/latest.log
+
+ops.json
+
+usercache.json
