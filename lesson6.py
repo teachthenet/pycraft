@@ -6,10 +6,6 @@ mc = minecraft.Minecraft.create(address="162.244.165.151", name="seanybob") #NOT
 #   To do this, look back at lesson 4, and see if you can detect a pattern in the numbers
 #   and how they change between each layer.
 
-#STOP HERE.
-
-#Connect with a dev and we'll walk you through how to create and manipulate the algorithm shown below.
-
 block = 46
 pos = mc.player.getPos()
 
