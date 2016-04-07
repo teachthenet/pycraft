@@ -47,7 +47,7 @@ Now open lesson1.py in your code editor and follow the comments in there to get 
 
 
 ##### Host your own server / run a server locally?
-- You want to switch to [this branch](https://github.com/teachthenet/pycraft/tree/server)
+- You want to switch to [this repo](https://github.com/teachthenet/pycraft-server)
 
 
 ##### Notes
