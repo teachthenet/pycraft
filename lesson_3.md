@@ -36,14 +36,11 @@ You can also combine if statements using "and" / "or" operators.
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
 ```
-import mcpi.minecraft as minecraft
-
-#NOTE - replace "seanybob" below with your name
-mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
-
 import time
+import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
 ```
-The first 4 lines are the same as they were in the previous lesson. Be sure to replace "seanybob" with your name!
+The first 3 lines are the same as they were in the previous lesson. Be sure to replace "seanybob" with your name!
 
 ```
 water_block = 9
