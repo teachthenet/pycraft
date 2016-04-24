@@ -43,11 +43,21 @@ The variables in the call get replaced, essentially turning into the values we s
 mc.player.setPos(10, 110, 12)
 ```
 
+To execute the script, in your terminal cd to the directory the script is located:
+```
+cd ~/TeachCraft-Challenges
+```
+
+Then run the script like so:
+```
+python script.py
+```
+
 ----------------------
 
 # CHALLENGE 1
 
-Modify the script above to go to a different x/y/z location.
+Modify the script to go to a different x/y/z location.
 
 # CHALLENGE 2
 
