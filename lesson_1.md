@@ -1,6 +1,6 @@
 # Lesson 1
 
-##Code Editor
+#### Code Editor
 Open up script.py in a code editor. We'll be going through this file line-by-line to start with.
 
 ```
@@ -46,7 +46,7 @@ The variables in the call get replaced, essentially turning into the values we s
 mc.player.setPos(10, 110, 12)
 ```
 
-##Terminal
+#### Terminal
 
 To execute the script, in your terminal cd to the directory the script is located:
 ```
