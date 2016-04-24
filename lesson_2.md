@@ -22,8 +22,8 @@ This line will import an additional python library we will be using called time 
 
 ```
 print "Hi!"
-x = 5
-print x
+my_variable = 5
+print my_variable
 ```
 
 - The print command will print things to the terminal.
