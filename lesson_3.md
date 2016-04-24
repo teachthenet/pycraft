@@ -3,7 +3,7 @@
 #### Goal
 Grant your character the ability to walk on water (by turning water blocks underneath the player into ice blocks)
 
-#### New Concept
+#### New Concepts
 If statements are a way of checking a condition, similar to a while loop. Instead of looping though, they only execute once, and only if their condition is met.
 ```
 if <condition>:
