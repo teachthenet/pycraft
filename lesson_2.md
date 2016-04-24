@@ -20,6 +20,17 @@ This line will import an additional python library we will be using called time 
 
 -----------------
 
+```
+print "Hi!"
+x = 5
+print x
+```
+
+- The print command will print things to the terminal.
+- This is useful for debugging, both to see when code got executed, and to see the contents of variables
+
+-----------------
+
 Now for a new construct, a while loop!
 
 A while loop has a format like so:
