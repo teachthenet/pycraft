@@ -58,6 +58,8 @@ Then run the script like so:
 python script.py
 ```
 
+Each time you edit the code, you will need to re-run the script using the above command.
+
 ----------------------
 
 # CHALLENGES
