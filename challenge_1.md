@@ -1,3 +1,5 @@
+# CHALLENGE 1
+
 Open up script.py in a code editor. We'll be going through this file line-by-line to start with.
 
 ```
@@ -55,10 +57,7 @@ python script.py
 
 ----------------------
 
-# CHALLENGE 1
+# CHALLENGES
 
-Modify the script to go to a different x/y/z location.
-
-# CHALLENGE 2
-
-Figure out which of the three coordinates (x, y, or z) controls how high up you are in the air.
+- Modify the script to go to a different x/y/z location.
+- Figure out which of the three coordinates (x, y, or z) controls how high up you are in the air.
