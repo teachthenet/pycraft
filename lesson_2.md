@@ -61,38 +61,6 @@ This line will import an additional python library we will be using called time 
 
 -----------------
 
-Now, for a big chunk of code. We're going to put the whole thing up here, then go through it line by line.
-
-```
-print "Code running in a loop! Hit control (or command) + c to cancel."
-
-while True:
-
-    #Retrieve the current player's X, Y, and Z coordinates
-    pos = mc.player.getPos()
-
-    #Store the current player's coordinates in our variables x/y/z
-    x = pos.x
-    y = pos.y
-    z = pos.z
-
-    #This is the minecraft block ID of the flower block.
-    block = 38
-    
-    #Set the block at the x/y/z coordinates of the current player to the block id we chose above.
-    mc.setBlock(x, y, z, block)
-    
-    #Wait for two tenths of a second, then jump back to the top of the while loop.
-    print "LOOPING, waiting 0.2 seconds"
-    time.sleep(0.2) 
-
-print "End of loop."
-```
-
-To break it down line by line:
-
------------------
-
 ```
 print "Before loop."
 ```
