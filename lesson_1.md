@@ -20,7 +20,7 @@ player_position = mc.player.getPos()
 You can also save important information, such as a player's position, into variables.
 
 
-#### Code Editor
+#### Code 
 Open up script.py in a code editor. We'll be going through this file line-by-line to start with.
 
 ```
