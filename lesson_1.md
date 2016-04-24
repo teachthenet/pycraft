@@ -63,10 +63,8 @@ mc.player.setPos(x, y, z)
 - We will access our player object inside that minecraft server...
 - And then set our position in the minecraft server to the x/y/z coordinates indicated by the variables we just set earlier.
 
-The variables in the call get replaced, essentially turning into the values we stored in them earlier:
-```
-mc.player.setPos(10, 110, 12)
-```
+The variables in the call get replaced, essentially turning into the values we stored in them earlier: mc.player.setPos(10, 110, 12)
+
 
 #### Terminal
 
