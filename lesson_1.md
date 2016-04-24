@@ -1,4 +1,4 @@
-# CHALLENGE 1
+# Lesson 1
 
 Open up script.py in a code editor. We'll be going through this file line-by-line to start with.
 
