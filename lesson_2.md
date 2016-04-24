@@ -172,7 +172,7 @@ Note that it will run in an infinite loop. To end it you can hit cmd+C (or contr
 
 # CHALLENGES
 
-- Modify the script above to put lava down instead of a flower.
+- Modify the script above to put lava down instead of a flower ([block id explorer](http://minecraft-ids.grahamedgecombe.com/))
 - Instead of putting the lava under the player, can you put it one block behind them (or to the side?)
 - Try experimenting with a few other block IDs! Some ideas:
     - You could make a yellow brick road out of gold blocks.
