@@ -24,9 +24,6 @@ z = 12
 - Here we are creating 3 variables for later use.
 - In the variable named 'x', we are storing the number 10.
 
-#Using our connection to our local minecraft server...
-#   For the player object...
-#   Set the position to the x/y/z coordinates we just defined above.
 ```
 mc.player.setPos(x, y, z)
 ```
