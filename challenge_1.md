@@ -43,10 +43,12 @@ The variables in the call get replaced, essentially turning into the values we s
 mc.player.setPos(10, 110, 12)
 ```
 
------------------
+----------------------
 
-#CHALLENGE 1
-# Modify the script above to go to a different x/y/z location.
+# CHALLENGE 1
 
-#CHALLENGE 2
-# Figure out which of the three coordinates (x, y, or z) controls how high up you are in the air.
+Modify the script above to go to a different x/y/z location.
+
+# CHALLENGE 2
+
+Figure out which of the three coordinates (x, y, or z) controls how high up you are in the air.
