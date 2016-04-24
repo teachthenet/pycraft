@@ -20,13 +20,6 @@ This line will import an additional python library we will be using called time 
 
 -----------------
 
-```
-print "Before loop."
-```
-This line just prints text to the terminal. We'll be using it as a method of debugging, so we can see when this line of code got executed.
-
------------------
-
 Now for a new construct, a while loop!
 
 A while loop has a format like so:
@@ -90,7 +83,7 @@ To break it down line by line:
 ```
 print "Before loop."
 ```
-We start by printing a status.
+This line just prints text to the terminal. We'll be using it as a method of debugging, so we can see when this line of code got executed.
 
 -----------------
 
