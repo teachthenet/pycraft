@@ -71,7 +71,7 @@ This line just prints text to the terminal. We'll be using it as a method of deb
 ```
 while True:
 ```
-Next, we open a while loop. Note that this loop's condition is simply 'True'. This means it will continue executing, forever, until you manually kill it with cmd+C (or control+C). You can also close the terminal to kill it.
+Next, we open a while loop. Note that this loop's condition is simply 'True'. This means it will continue executing, forever, until you manually kill it with cmd+C (or control+C). You can also close the terminal to kill it. This is also called an infinite loop.
 
 -----------------
 
