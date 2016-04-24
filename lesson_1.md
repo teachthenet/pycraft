@@ -1,5 +1,25 @@
 # Lesson 1
 
+#### Goal
+Teleport your character to a point you define in code.
+
+#### New Concepts
+
+Variables are basically nametags used to refer to something, and are set using a single equals sign.
+
+```
+x = 5
+```
+
+You can set numbers into variables to "remember" them for later use.
+
+```
+player_position = mc.player.getPos()
+```
+
+You can also save important information, such as a player's position, into variables.
+
+
 #### Code Editor
 Open up script.py in a code editor. We'll be going through this file line-by-line to start with.
 
@@ -30,6 +50,8 @@ z = 12
 
 - Here we are creating 3 variables for later use.
 - In the variable named 'x', we are storing the number 10.
+- In the variable named 'y', we are storing the number 110.
+- In the variable named 'z', we are storing the number 12.
 
 -----------------
 

@@ -1,24 +1,9 @@
 # Lesson 2
 
-#### Code Editor
-Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
+#### Goal
+Make a path of flowers spawn behind you while you walk. (Can replace flowers with any block id, such as lava)
 
-```
-import mcpi.minecraft as minecraft
-
-#NOTE - replace "seanybob" below with your name
-mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
-```
-The first 3 lines are the same as they were in the previous lesson. Be sure to replace "seanybob" with your name!
-
------------------
-
-```
-import time
-```
-This line will import an additional python library we will be using called time - allowing us to "pause" the script for several seconds as needed.
-
------------------
+#### New Concepts
 
 ```
 print "Hi!"
@@ -54,15 +39,34 @@ while my_counter <= 10:
 - Then, we enter a while loop that continues executing until my_counter exceeds 10
 - Inside the while loop, we keep printing the value stored in my_counter, and then incrementing that value by 1
 
-In summary, a while loop will keep executing the same code over and over until its condition is no longer met, or until it's forced to stop by the user. A user can force code to stop that they are running in a terminal by hitting cmd+C (or control+c on a Windows machine).
+In summary, a while loop will keep executing the same code over and over until its condition is no longer met, or until it's forced to stop by the user.
 
+A user can force code to stop that they are running in a terminal by hitting cmd+C (or control+c on a Windows machine).
+
+#### Code Editor
+Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
+
+```
+import mcpi.minecraft as minecraft
+
+#NOTE - replace "seanybob" below with your name
+mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
+```
+The first 3 lines are the same as they were in the previous lesson. Be sure to replace "seanybob" with your name!
+
+-----------------
+
+```
+import time
+```
+This line will import an additional python library we will be using called time - allowing us to "pause" the script for several seconds as needed.
 
 -----------------
 
 Now, for a big chunk of code. We're going to put the whole thing up here, then go through it line by line.
 
 ```
-print "Before loop."
+print "Code running in a loop! Hit control (or command) + c to cancel."
 
 while True:
 
