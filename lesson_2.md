@@ -43,7 +43,7 @@ In summary, a while loop will keep executing the same code over and over until i
 
 A user can force code to stop that they are running in a terminal by hitting cmd+C (or control+c on a Windows machine).
 
-#### Code Editor
+#### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
 ```
