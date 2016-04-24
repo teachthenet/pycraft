@@ -111,6 +111,8 @@ Next, we open a while loop. Note that this loop's condition is simply 'True'. Th
 ```
 Inside the while loop, the first thing we do is get the player's x/y/z coordinates. You'll note this is similar to the setPos function from lesson 1, though it's retrieving them instead of setting them!
 
+IMPORTANT NOTE - you'll observe this line of code (and several lines underneath) are indented! This is how python tells which code belongs to the while loop, and needs to be executed in a loop. Indention is important in python!
+
 -----------------
 
 ```
