@@ -69,7 +69,7 @@ python script.py
 
 - Modify the script above, and change the block used to build the building
 - Make the building twice as tall.
-- Add the code below and determine what it does.
+- Add the code below to the bottom of your script (don't delete anything, just add it) and determine what it does.
 ```
 mystery_block_id = 0
 mc.setBlocks(x+1, y+1, z+1, x2-1, y2-1, z2-1, mystery_block_id)
