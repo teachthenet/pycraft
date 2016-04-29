@@ -16,39 +16,35 @@ print my_variable
 
 -----------------
 
-Now for a new construct, a while loop!
+Now for a new construct, an infinite while loop!
 
-A while loop has a format like so:
+Infinite while loops are used to make a set of code execute repeatedly, over and over, until the user decides to stop it.
+
+An infinite while loop's structure looks like this:
 
 ```
-while <condition>:
+while True:
     <execute this indented code>
     <jump back to the top of the while statement>
 ```
 
-For example, this bit of code will print the numbers 1 to 10
+For example, will constantly print the pattern "1 2 3 1 2 3 1 2 3 1 2 3..." over and over.
 
 ```
-my_counter = 1
-while my_counter <= 10:
-    print my_counter
-    my_counter = my_counter + 1
+while True:
+    print "1"
+    print "2"
+    print "3"
 ```
 
-- In this snippet, we start by creating a variable called 'my_counter' and setting it equal to 1.
-- Then, we enter a while loop that continues executing until my_counter exceeds 10
-- Inside the while loop, we keep printing the value stored in my_counter, and then incrementing that value by 1
-
-In summary, a while loop will keep executing the same code over and over until its condition is no longer met, or until it's forced to stop by the user.
-
-A user can force code to stop that they are running in a terminal by hitting cmd+C (or control+c on a Windows machine).
+In summary, an infinite while loop will keep executing the same code over and over until its it's forced to stop by the user (by pressing cmd+C on a Mac, or control+c on a windows while focused on the terminal)
 
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
 ```
 import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
 The first 2 lines are the same as they were in the previous lesson. Be sure to replace "seanybob" with your name!
 

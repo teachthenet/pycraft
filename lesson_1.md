@@ -32,7 +32,7 @@ This first line imports the mcpi.minecraft library, making it available under th
 
 ```
 #NOTE - replace "seanybob" below with your name
-mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
 
 - Anything prefixed by the '#' symbol is a comment for humans, and is ignored by the computer.

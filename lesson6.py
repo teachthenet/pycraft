@@ -1,5 +1,5 @@
 import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create(address="162.244.165.151", name="seanybob") #NOTE - replace "seanybob" with your name
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob") #NOTE - replace "seanybob" with your name
 
 #In this lesson, we're going to take the pyramid we created in lesson 5,
 #   and write an algorithm that will let us dynamically create it any size!

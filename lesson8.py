@@ -2,7 +2,7 @@ from mcpi import minecraft
 import rcon_mc.rcon
 import rcon_mc.lib.msocket
 
-server_address = "162.244.165.151"
+server_address = "199.96.85.3"
 rcon_port = 25575
 rcon_password = "pycraft"
 raspberry_juice_port = 4711

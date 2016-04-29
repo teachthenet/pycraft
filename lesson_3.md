@@ -11,9 +11,10 @@ if <condition>:
 ```
 
 - We have another construct called an if statement.
-- Similar to a while statement, it has a condition it checks, and then indented code underneath it.
-- For an if statement, that code is ONLY executed once if the condition is satisfied.
-- For a while statement, the code is continuously executed in a loop while the condition is satisfied.
+- An If statement has a condition it checks.
+- If the condition passes (is true), it executes the indented code underneath it ONCE.
+- If the condition fails (it is not true), it skips the indented code underneath it.
+- So an IF statement executes its code once, while a While loop executes it repeatedly!
 
 ```
 x = 4
@@ -21,7 +22,7 @@ if x == 3:
     print "x is 3"
 ```
 
-This only runs the print statement if x is 3. Note the double equals sign in the if statement! It's super important. Double equals checks if something is equivalent, while a single equals actually assigns something.
+This only runs the print statement if x is 3. Note the double equals sign in the if statement! It's super important. Double equals checks if something is equivalent (compared to a single equals which assigns something to a variable).
 
 ```
 if y > 10:
@@ -45,7 +46,7 @@ Open up script.py in a code editor. Delete everything in it, we'll be starting f
 ```
 import time
 import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create(address="127.0.0.1", name="seanybob")
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
 The first 3 lines are the same as they were in the previous lesson. Be sure to replace "seanybob" with your name!
 

@@ -1,7 +1,7 @@
 from mcpi import minecraft
 import time
 
-server_address = "162.244.165.151"
+server_address = "199.96.85.3"
 my_player_name = "seanybob"
 
 mc = minecraft.Minecraft.create(address=server_address, name=my_player_name)
