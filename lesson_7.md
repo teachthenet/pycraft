@@ -15,6 +15,22 @@ for chatpost in mc.events.pollChatPosts():
 
 This code will execute the code inside the while loop once for every chat message found in the minecraft chat post since the last time we looked. By sticking this in an infinite while loop, we can actually watch all messages posted in chat, forever!
 
+```
+if chatpost.message.lower() == "explode":
+    print "explode was the message!"
+```
+You can use an if statement like this to test if the word explode IS the entire message.
+
+```
+if "explode" in chatpost.message.lower():
+    print "frank is inside the message!"
+```
+You can use an if statement like this to test if the word "explode" is anywhere in the message.
+
+```
+who = chatpost.message.lower().split(' ')[1]
+```
+If you have a message where you are typing in a command AND a name (e.g. "explode joe"), this is how you extract the name joe and stick it in a variable. The code above will always extract the second word typed in a string (that what the 1 index is specifying).
 
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
@@ -54,7 +70,7 @@ while True:
             if chatpost.message.lower() == "hi":
                 mc.postToChat("Hello right back at you!")
 
-            elif chatpost.message.lower() == "testing":
+            if chatpost.message.lower() == "testing":
                 mc.postToChat("123")
 
     time.sleep(.1)
@@ -70,7 +86,7 @@ python script.py
 
 # CHALLENGE 1
 
-Modify the script above, and add a chat trigger called "shield" that builds a glass shield "building" all around you, making it so nothing can attack you but you can still see. Hint: Refer to lesson5
+Modify the script above, and add a chat trigger called "shield" that builds a glass shield "building" all around you, making it so nothing can attack you but you can still see. Hint: Refer to lesson 4
 
 # CHALLENGE 2
 
