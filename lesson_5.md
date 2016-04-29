@@ -44,7 +44,7 @@ Get the player's current position so we can build the pyramid there.
 
 ```
 x2 = x + 8 #Make it 8 blocks wide.
-y2 = y + 0 #Make it only one block high, so don't add anything here.
+y2 = y #Make it only one block high, so don't add anything here.
 z2 = z + 8 #Make it 8 blocks long.
 
 mc.setBlocks(x, y, z, x2, y2, z2, block_id)

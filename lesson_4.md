@@ -31,12 +31,14 @@ mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 The first 2 lines are similar to the previous lesson. Be sure to replace "seanybob" with your name!
 
 ```
-x = 10
-y = 110
-z = 12
+#Get the player's current position so we can build the pyramid there.
+pos = mc.player.getPos()
+x = pos.x
+y = pos.y
+z = pos.z
 ```
 
-This position is the bottom front right of our building
+This position is the bottom front right of our building - let's put it where our user is standing, so we can find it easy!
 
 ```
 x2 = x + 10

@@ -53,7 +53,7 @@ for i in range(5):
     z = pos.z + i
 
     x2 = x + ?
-    y2 = y + ?
+    y2 = y
     z2 = z + ?
     mc.setBlocks(x, y, z, x2, y2, z2, block)
 ```
