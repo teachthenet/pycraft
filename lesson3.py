@@ -1,6 +1,6 @@
 import time
 import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create(address="162.244.165.151", name="seanybob") #NOTE - replace "seanybob" with your name
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob") #NOTE - replace "seanybob" with your name
 
 #The goal of this lesson is to grant your character the ability to walk on water!
 #   When a player is walking, if the block underneath them is water, we want to

@@ -1,7 +1,7 @@
 from mcpi import minecraft
 import time
 
-server_address = "162.244.165.151"
+server_address = "199.96.85.3"
 my_player_name = "seanybob"
 
 mc = minecraft.Minecraft.create(address=server_address, name=my_player_name)
@@ -24,15 +24,70 @@ while True:
             if chatpost.message.lower() == "hi":
                 mc.postToChat("Hello right back at you!")
 
-            elif chatpost.message.lower() == "testing":
-                mc.postToChat("123")
+            if chatpost.message.lower() == "shield":
+                mc.postToChat("Shield activated!")
+                pos = mc.player.getPos()
+                x = pos.x-1
+                y = pos.y-1
+                z = pos.z-1
+                
+                x2 = x + 2
+                y2 = y + 3
+                z2 = z + 2
+                
+                block_id = 20
+                mc.setBlocks(x, y, z, x2, y2, z2, block_id)
+                
+                air_block_id = 0
+                mc.setBlocks(x+1, y+1, z+1, x2-1, y2-1, z2-1, air_block_id)
+                
+            if chatpost.message.lower() == "nuke":
+                mc.postToChat("Nuke activated!")
+                pos = mc.player.getPos()
+                
+                #Dirt
+                mc.setBlock(pos.x+8, pos.y-2, pos.z-8, 3) 
+                mc.setBlock(pos.x-8, pos.y-2, pos.z+8, 3) 
+                mc.setBlock(pos.x+8, pos.y-2, pos.z+8, 3) 
+                mc.setBlock(pos.x-8, pos.y-2, pos.z-8, 3)
+                
+                #Redstone Torch
+                mc.setBlock(pos.x+8, pos.y-1, pos.z-8, 76) 
+                mc.setBlock(pos.x-8, pos.y-1, pos.z+8, 76) 
+                mc.setBlock(pos.x+8, pos.y-1, pos.z+8, 76) 
+                mc.setBlock(pos.x-8, pos.y-1, pos.z-8, 76)
+                
+                #TNT
+                mc.setBlock(pos.x+8, pos.y, pos.z-8, 46) 
+                mc.setBlock(pos.x-8, pos.y, pos.z+8, 46) 
+                mc.setBlock(pos.x+8, pos.y, pos.z+8, 46) 
+                mc.setBlock(pos.x-8, pos.y, pos.z-8, 46) 
 
+            if "jail" in chatpost.message.lower():
+                who = chatpost.message.lower().split(' ')[1]
+                mc.postToChat("Jailed "+who+"!")
+                mc = minecraft.Minecraft.create(address=server_address, name=who)
+                pos = mc.player.getPos()
+                x = pos.x-1
+                y = pos.y-1
+                z = pos.z-1
+                
+                x2 = x + 2
+                y2 = y + 3
+                z2 = z + 2
+                
+                block_id = 7
+                mc.setBlocks(x, y, z, x2, y2, z2, block_id)
+                
+                air_block_id = 0
+                mc.setBlocks(x+1, y+1, z+1, x2-1, y2-1, z2-1, air_block_id)
+                
     time.sleep(.1)
 
 
 #CHALLENGE 1
 # Modify the script above, and add a chat trigger called "shield" that builds a glass shield "building"
-#   all around you, making it so nothing can attack you but you can still see. Hint: Refer to lesson5
+#   all around you, making it so nothing can attack you but you can still see. Hint: Refer to lesson4
 
 #CHALLENGE 2
 # Modify the script above, and add a chat trigger called "nuke" that spawns several TNT around you.

@@ -6,7 +6,7 @@ import mcpi.minecraft as minecraft
 import time 
 
 #Create a connection to minecraft
-mc = minecraft.Minecraft.create(address="162.244.165.151", name="seanybob") #NOTE - replace "seanybob" with your name
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob") #NOTE - replace "seanybob" with your name
 #address="topopps.mcph.co"
 
 #This is a new construct to learn!

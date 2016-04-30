@@ -1,1 +1,0 @@
-Solutions for the minecraft lessons are in this branch.
