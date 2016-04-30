@@ -8,26 +8,26 @@ In this lesson, we'll be setting up a magic system! We'll create a listener that
 
 In this lesson, we'll look at another for loop!
 
-```
+```python
 for chatpost in mc.events.pollChatPosts():
     print chatpost
 ```
 
 This code will execute the code inside the while loop once for every chat message found in the minecraft chat post since the last time we looked. By sticking this in an infinite while loop, we can actually watch all messages posted in chat, forever!
 
-```
+```python
 if chatpost.message.lower() == "explode":
     print "explode was the message!"
 ```
 You can use an if statement like this to test if the word explode IS the entire message.
 
-```
+```python
 if "explode" in chatpost.message.lower():
     print "frank is inside the message!"
 ```
 You can use an if statement like this to test if the word "explode" is anywhere in the message.
 
-```
+```python
 who = chatpost.message.lower().split(' ')[1]
 ```
 If you have a message where you are typing in a command AND a name (e.g. "explode joe"), this is how you extract the name joe and stick it in a variable. The code above will always extract the second word typed in a string (that what the 1 index is specifying).
@@ -35,7 +35,7 @@ If you have a message where you are typing in a command AND a name (e.g. "explod
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
-```
+```python
 from mcpi import minecraft
 import time
 
@@ -46,17 +46,17 @@ mc = minecraft.Minecraft.create(address=server_address, name=my_player_name)
 ```
 These first few lines are similar to the previous lesson. Be sure to replace "seanybob" with your name!
 
-```
+```python
 my_id = mc.getPlayerEntityId(my_player_name)
 ```
 We first need to get our player ID, so we can focus on just listening to messages posted by us in chat
 
-```
+```python
 print "Script started! Type in 'hi' or 'testing' in minecraft chat to activate. Hit command (or control) + C in your terminal to stop."
 ```
 Let's add a print message to tell us when the script started.
 
-```
+```python
 #Watch for chat messages
 while True:
 
@@ -80,7 +80,7 @@ This is the foundation of our script! In an infinite while loop, we listen for c
 #### Terminal
 
 Run the script like so:
-```
+```shell
 python script.py
 ```
 

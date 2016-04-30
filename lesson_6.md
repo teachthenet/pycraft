@@ -14,7 +14,7 @@ For loops are used to repeat some code a set number of times.
 
 A for loop looks similar to a while loop. Observe the example below, where we print the numbers 0 through 4.
 
-```
+```python
 for i in range(5):
     print i
 ```
@@ -28,25 +28,25 @@ Note three things.
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
-```
+```python
 import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
 The first 2 lines are the same as the previous lesson. Be sure to replace "seanybob" with your name!
 
-```
+```python
 block_id = 24
 ```
 This is the block id for sandstone, which is good for a pyramid. Swap it to a different block ID if you'd like from [here](http://minecraft-ids.grahamedgecombe.com/).
 
-```
+```python
 pos = mc.player.getPos()
 ```
 Get the player's current position so we can build the pyramid there.
 
 
 
-```
+```python
 for i in range(5):
     x = pos.x + i
     y = pos.y + i
@@ -66,7 +66,7 @@ Note that the algorithm is not complete! Check the challenges below to see what 
 #### Terminal
 
 Run the script like so:
-```
+```shell
 python script.py
 ```
 

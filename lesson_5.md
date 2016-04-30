@@ -21,18 +21,18 @@ Hint: Instead of thinking of the pyramid as one building, think of every layer o
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
-```
+```python
 import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
 The first 2 lines are the same as the previous lesson. Be sure to replace "seanybob" with your name!
 
-```
+```python
 block_id = 24
 ```
 This is the block id for sandstone, which is good for a pyramid. Swap it to a different block ID if you'd like from [here](http://minecraft-ids.grahamedgecombe.com/).
 
-```
+```python
 pos = mc.player.getPos()
 x = pos.x
 y = pos.y
@@ -42,7 +42,7 @@ Get the player's current position so we can build the pyramid there.
 
 
 
-```
+```python
 x2 = x + 8 #Make it 8 blocks wide.
 y2 = y #Make it only one block high, so don't add anything here.
 z2 = z + 8 #Make it 8 blocks long.
@@ -55,7 +55,7 @@ Craft the bottom layer of the pyramid. This is the chunk of code you will need t
 #### Terminal
 
 Run the script like so:
-```
+```shell
 python script.py
 ```
 

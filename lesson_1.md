@@ -7,13 +7,13 @@ Teleport your character to a point you define in code.
 
 Variables are basically nametags used to refer to something, and are set using a single equals sign.
 
-```
+```python
 x = 5
 ```
 
 You can set numbers into variables to "remember" them for later use.
 
-```
+```python
 player_position = mc.player.getPos()
 ```
 
@@ -23,14 +23,14 @@ You can also save important information, such as a player's position, into varia
 #### Code 
 Open up script.py in a code editor. We'll be going through this file line-by-line to start with.
 
-```
+```python
 import mcpi.minecraft as minecraft
 ```
 This first line imports the mcpi.minecraft library, making it available under the name 'minecraft'
 
 -----------------
 
-```
+```python
 #NOTE - replace "seanybob" below with your name
 mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
@@ -42,7 +42,7 @@ mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 
 -----------------
 
-```
+```python
 x = 10
 y = 110
 z = 12
@@ -55,7 +55,7 @@ z = 12
 
 -----------------
 
-```
+```python
 mc.player.setPos(x, y, z)
 ```
 
@@ -71,12 +71,12 @@ mc.player.setPos(10, 110, 12)
 #### Terminal
 
 To execute the script, in your terminal cd to the directory the script is located:
-```
+```shell
 cd ~/TeachCraft-Challenges
 ```
 
 Then run the script like so:
-```
+```shell
 python script.py
 ```
 
