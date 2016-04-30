@@ -1,64 +1,46 @@
-##### To Run
+##### TeachCraft 
 
-In a file browser, double click Minecraft Launcher.jar
+A series of lessons used to teach middle school and high school kids the fundamentals of programming!
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-23-00KXC3CT.png)
+Using Python, each of the lessons will teach the kids new concepts, going through while loops, if statements, for loops,  algorithms, function calls, and the like.
 
-In the bottom left, decide upon and enter a username for yourself
+The entire process is collaborative - students are able to see each others progress as they are all in the same multiplayer server together. Indeed, one of the later lessons constructs a magical system the students can use to battle each other from code!
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-23-20PLF8N2.png)
+All that is needed to get started is downloading the code in this library and installing java on your system (full instructions in the [setup guide](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/setup.md)).
 
-Also in the bottom left, select Release 1.8.8
+I have a server up and running that allows this python code access - all the lessons default to pointing to my server's IP. If you'd like privacy, or if my server is down due to being DOS'ed (easily achievable from the code), you may want to [setup your own server](https://github.com/teachthenet/pycraft-server). I will check my server on occasion and restart it.
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-21-47BAP7OT.png)
+##### Lessons
 
-Click Install
+[Initial Setup](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/setup.md): Get minecraft running, get connected to the server.
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-24-41Z42XWT.png)
+[Lesson 1](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_1.md): Teleport your character to a point you define in code.
 
-Once the game launches, select Multiplayer
+[Lesson 2](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_2.md): Make a path of something (flowers, lava, fire) follow behind you while you walk. 
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-25-17IJ9FWJ.png)
+[Lesson 3](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_3.md): Give your character the ability to walk on water (by turning water below your character into ice).
 
-Then select Direct Connect
+[Lesson 4](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_4.md): Create a building programmatically
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-25-36Z7C2ZV.png)
+[Lesson 5](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_5.md): Create a pyramid programmatically
 
-Now you will need to enter the IP of the server.
-- If you are using my server, type in 162.244.165.151:58331
-- If you are running the server locally, type in 127.0.0.1
-- If your instructor is running a server somewhere, they will provide you with the IP to type in.
+[Lesson 6](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_6.md): Use an algorithm to construct the pyramid by analyzing the pattern you discovered in lesson 5!
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-25-53XIX7K9.png)
+[Lesson 7](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_7.md): Create a magic system that listens to Minecraft chat, and executes your pre-defined spells!
 
-Now click Join Server!
+[Advanced: Lesson 8](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_8.md): Learn how to import an image into minecraft pixel art using Python Imaging Library.
 
-![](http://teachthe.net/topclipbox/2016-03-03_14-27-3797QL8G.png)
+##### Want to host your own server / run a server locally?
+- You want to switch to [this repo](https://github.com/teachthenet/pycraft-server)
 
-Now open lesson1.py in your code editor and follow the comments in there to get started!
-
-##### Minecraft API
+##### Minecraft Docs
 - [pi version](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) Has most of the basics of the python api
 - [our version](https://github.com/zhuowei/RaspberryJuice) Has the additional things our python api supports, above and beyond the pi version
 - [Minecraft block ids](http://minecraft-ids.grahamedgecombe.com/)
-- [rcon commands](http://minecraft.gamepedia.com/Commands#execute)
-- [tell raw details](http://www.minecraftforum.net/forums/minecraft-discussion/redstone-discussion-and/351959-1-8-raw-json-text-examples-for-tellraw-title-books)
-
-
-
-##### Host your own server / run a server locally?
-- You want to switch to [this repo](https://github.com/teachthenet/pycraft-server)
-
 
 ##### Notes
 - Player location from the python api will not match the same retrieved from the server.
     This is because raspberryjuice calculates it from the spawn point, while the server calculates it from 0,0,0.
     To fix, run this as an admin:
     setworldspawn 0 0 0
-
-
-##### Troubleshooting
-- "Error - need to install JDK". To resolve this error, google "java se development kit". You'll then find something that looks like [this](http://teachthe.net/topclipbox/2016-02-28_01-29-305W6BTE.png) - download and run the appropriate one for your system.
-- "Error - unidentified developer". To resolve this error on OSX, you need to click the apple in the top left of your screen, then System Preferences..., then Security & Privacy, then unlock in the bottom left, then (make sure the General tab is selected) under Allow apps downloaded from select Anywhere. It should look like [this](http://teachthe.net/topclipbox/2016-02-28_01-31-41VO1QVS.png).
-
 
