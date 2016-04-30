@@ -28,7 +28,7 @@ I have a server up and running with the python api open - all the lessons defaul
 
 [Lesson 7](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_7.md): Create a magic system that listens to Minecraft chat, and executes your pre-defined spells!
 
-[(Advanced) Lesson 8](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_8.md): Learn how to import an image into minecraft pixel art using Python Imaging Library.
+[(Advanced) Lesson 8](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson8/lesson8.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
 
 ### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/pycraft-server)
