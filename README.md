@@ -4,7 +4,7 @@ A series of lessons used to teach middle school and high school kids the fundame
 
 Using Python, each of the lessons will teach the kids new concepts, going through while loops, if statements, for loops,  algorithms, function calls, and the like.
 
-The entire process is collaborative - students are able to see each others progress as they are all in the same multiplayer server together. Indeed, one of the later lessons constructs a magical system the students can use to battle each other from code!
+The entire process is collaborative - students are able to see each other's progress as they are all in the same multiplayer server together. Indeed, one of the later lessons constructs a magical system the students can use to battle each other, invoking spells they prepared in code!
 
 All that is needed to get started is downloading the code in this library and installing java on your system (full instructions in the [setup guide](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/setup.md)).
 
