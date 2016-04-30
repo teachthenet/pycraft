@@ -5,7 +5,7 @@ Make a path of flowers spawn behind you while you walk. (Can replace flowers wit
 
 #### New Concepts
 
-```
+```python
 print "Hi!"
 my_variable = 5
 print my_variable
@@ -22,7 +22,7 @@ Infinite while loops are used to make a set of code execute repeatedly, over and
 
 An infinite while loop's structure looks like this:
 
-```
+```python
 while True:
     <execute this indented code>
     <jump back to the top of the while statement>
@@ -30,7 +30,7 @@ while True:
 
 For example, will constantly print the pattern "1 2 3 1 2 3 1 2 3 1 2 3..." over and over.
 
-```
+```python
 while True:
     print "1"
     print "2"
@@ -42,7 +42,7 @@ In summary, an infinite while loop will keep executing the same code over and ov
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
 
-```
+```python
 import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
 ```
@@ -50,28 +50,28 @@ The first 2 lines are the same as they were in the previous lesson. Be sure to r
 
 -----------------
 
-```
+```python
 import time
 ```
 This line will import an additional python library we will be using called time - allowing us to "pause" the script for several seconds as needed.
 
 -----------------
 
-```
+```python
 print "Before loop."
 ```
 This line just prints text to the terminal. We'll be using it as a method of debugging, so we can see when this line of code got executed.
 
 -----------------
 
-```
+```python
 while True:
 ```
 Next, we open a while loop. Note that this loop's condition is simply 'True'. This means it will continue executing, forever, until you manually kill it with cmd+C (or control+C). You can also close the terminal to kill it. This is also called an infinite loop.
 
 -----------------
 
-```
+```python
     #Retrieve the current player's X, Y, and Z coordinates
     pos = mc.player.getPos()
 ```
@@ -81,7 +81,7 @@ IMPORTANT NOTE - you'll observe this line of code (and several lines underneath)
 
 -----------------
 
-```
+```python
     #Store the current player's coordinates in our variables x/y/z
     x = pos.x
     y = pos.y
@@ -91,7 +91,7 @@ Still inside the while loop, we store the player's position into x/y/z variables
 
 -----------------
 
-```
+```python
     #This is the minecraft block ID of the flower block.
     block = 38
 ```
@@ -99,7 +99,7 @@ Still inside the while loop, we set Minecraft's block id for a flower to a varia
 
 -----------------
 
-```
+```python
     #Set the block at the x/y/z coordinates of the current player to the block id we chose above.
     mc.setBlock(x, y, z, block)
 ```
@@ -111,7 +111,7 @@ Moreover, since this is a loop, it means we should make a trail of flowers behin
 
 -----------------
 
-```
+```python
     #Wait for two tenths of a second, then jump back to the top of the while loop.
     print "LOOPING, waiting 0.2 seconds"
     time.sleep(0.2)
@@ -120,7 +120,7 @@ Still inside the while loop, here we print a statement letting us know the loop 
 
 -----------------
 
-```
+```python
 print "End of loop."
 ```
 Finally the last line, which is OUTSIDE the while loop. We know that because it's not indented - that's how the computer knows the while loop has ended.
@@ -129,7 +129,7 @@ Finally the last line, which is OUTSIDE the while loop. We know that because it'
 #### Terminal
 
 Run the script like so:
-```
+```shell
 python script.py
 ```
 
