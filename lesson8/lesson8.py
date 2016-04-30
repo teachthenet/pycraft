@@ -1,18 +1,27 @@
+"""
+This script does the following:
+- Take an image as input, and read it pixel by pixel.
+- For each pixel in the image, set a block in the minecraft world closest to the color of that pixel.
+- End result should be pixel art in minecraft world.
+- Use mario.gif in this directory to start with.
+
+Try to understand how this script works - it uses various data structures and functions.
+
+Try to figure out how it takes an image as input, and change the image to something else you'd like to insert into the minecraft world.
+
+NOTE! This script requires installing the Python library 'pillow' - instructions located here:
+https://pillow.readthedocs.org/en/latest/installation.html
+"""
+
 import sys
 sys.path.append("../")
 
 import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create(name="seanybob") #NOTE - replace "seanybob" with your name
-
-"""
-This requires installing the Python library 'pillow' - instructions located here:
-https://pillow.readthedocs.org/en/latest/installation.html
-"""
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob") #NOTE - replace "seanybob" with your name
 
 from math import sqrt
 
 from PIL import Image
-
 
 # Possible blocks  in (Name, ID, (RGB1,RGB2,..),Data)
 	#RGBs are used to color match. 
@@ -87,11 +96,11 @@ def getBlockFromColor(RGB):
 def getColorDist(colorRGB, blockRGB):
 	return sqrt( pow(colorRGB[0]-blockRGB[0],2) + pow(colorRGB[1]-blockRGB[1],2) + pow(colorRGB[2]-blockRGB[2],2))
 	
-mc.player.setPos(100, 100, 100)
+pos = mc.player.getPos()
 
 maxsize = (100, 100)
 
-im = Image.open('mario.png')
+im = Image.open('mario.gif')
 im.thumbnail(maxsize, Image.ANTIALIAS)
 rgb_im = im.convert('RGB')
 rows, columns = rgb_im.size
@@ -100,12 +109,4 @@ for r in range(rows):
     for c in range(columns):
         rgb = rgb_im.getpixel((r, c))
         mc_block = getBlockFromColor(rgb)
-        print rgb, mc_block[0]
-        mc.setBlock(100+r, 100, 100+c, mc_block[1])
-
-
-#CHALLENGE 
-# Take an image as input, and read it pixel by pixel.
-# For each pixel in the image, set a block in the minecraft world closest to the color of that pixel.
-# End result should be pixel art in minecraft world.
-# Use mario.gif in this directory to start with.
+        mc.setBlock(pos.x+r, pos.y, pos.z+c, mc_block[1])
