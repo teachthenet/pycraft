@@ -1,4 +1,4 @@
-##### TeachCraft 
+## TeachCraft 
 
 A series of lessons used to teach middle school and high school kids the fundamentals of programming!
 
@@ -10,7 +10,7 @@ All that is needed to get started is downloading the code in this library and in
 
 I have a server up and running that allows this python code access - all the lessons default to pointing to my server's IP. If you'd like privacy, or if my server is down due to being DOS'ed (easily achievable from the code), you may want to [setup your own server](https://github.com/teachthenet/pycraft-server). I will check my server on occasion and restart it.
 
-##### Lessons
+### Lessons & Setup
 
 [Initial Setup](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/setup.md): Get minecraft running, get connected to the server.
 
@@ -30,15 +30,15 @@ I have a server up and running that allows this python code access - all the les
 
 [Advanced: Lesson 8](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_8.md): Learn how to import an image into minecraft pixel art using Python Imaging Library.
 
-##### Want to host your own server / run a server locally?
+### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/pycraft-server)
 
-##### Minecraft Docs
+### Minecraft Docs
 - [pi version](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) Has most of the basics of the python api
 - [our version](https://github.com/zhuowei/RaspberryJuice) Has the additional things our python api supports, above and beyond the pi version
 - [Minecraft block ids](http://minecraft-ids.grahamedgecombe.com/)
 
-##### Notes
+### Notes
 - Player location from the python api will not match the same retrieved from the server.
     This is because raspberryjuice calculates it from the spawn point, while the server calculates it from 0,0,0.
     To fix, run this as an admin:
