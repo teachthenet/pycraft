@@ -10,6 +10,11 @@ All that is needed to get started is downloading the code in this repo and insta
 
 I have a server up and running with the python api open - all the lessons default to pointing to my server's IP. If you'd like privacy, or if my server is down due to being DOS'ed (easily achievable through it's open python api), you may want to [setup your own server](https://github.com/teachthenet/pycraft-server). If you note my server is down, feel free to open an issue here to inform me to restart it.
 
+My Minecraft server is located at
+```
+199.96.85.3:25570
+```
+
 ### Lessons & Setup
 
 [Initial Setup](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/setup.md): Get minecraft running, get connected to the server.
