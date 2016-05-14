@@ -37,7 +37,7 @@ while True:
     print "3"
 ```
 
-In summary, an infinite while loop will keep executing the same code over and over until its it's forced to stop by the user (by pressing cmd+C on a Mac, or control+c on a windows while focused on the terminal)
+In summary, an infinite while loop will keep executing the same code over and over until its it's forced to stop by the user by pressing control+c.
 
 #### Code
 Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
@@ -67,7 +67,7 @@ This line just prints text to the terminal. We'll be using it as a method of deb
 ```python
 while True:
 ```
-Next, we open a while loop. Note that this loop's condition is simply 'True'. This means it will continue executing, forever, until you manually kill it with cmd+C (or control+C). You can also close the terminal to kill it. This is also called an infinite loop.
+Next, we open a while loop. Note that this loop's condition is simply 'True'. This means it will continue executing, forever, until you manually kill it with control+C. You can also close the terminal to kill it. This is also called an infinite loop.
 
 -----------------
 
@@ -133,7 +133,7 @@ Run the script like so:
 python script.py
 ```
 
-Note that it will run in an infinite loop. To end it you can hit cmd+C (or control+C), or just close the terminal.
+Note that it will run in an infinite loop. To end it you can hit control+C, or just close the terminal.
 
 
 # CHALLENGES
