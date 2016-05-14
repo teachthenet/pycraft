@@ -94,7 +94,7 @@ Add a new spell called "nuke" that spawns several TNT around you. Spawn Fire (it
 
 # CHALLENGE 3
 
-Add a new spell called "bird" that teleports you 100 blocks above your current position, waits 3 seconds, then teleports you back to your original position - thus giving you a bird's eye view of your current location.
+Add a new spell called "bird". This spell should create a block 99 blocks above your current position, then teleport you 100 blocks above your current position (onto that newly created block/platform). It should wait 3 seconds, then teleport you back to your original position and destroy the temporary block/platform. Thus, this spell gives you a bird's eye view of your current location.
 
 # CHALLENGE 4
 
