@@ -70,7 +70,7 @@ while True:
             if chatpost.message.lower() == "hi":
                 mc.postToChat("Hello right back at you!")
 
-            if chatpost.message.lower() == "testing":
+            elif chatpost.message.lower() == "testing":
                 mc.postToChat("123")
 
     time.sleep(.1)
