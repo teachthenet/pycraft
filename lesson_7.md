@@ -86,18 +86,16 @@ python script.py
 
 # CHALLENGE 1
 
-Modify the script above, and add a chat trigger called "shield" that builds a glass shield "building" all around you, making it so nothing can attack you but you can still see. Hint: Refer to lesson 4
+Add a new spell called "shield" that builds a glass shield "building" all around you, making it so nothing can attack you but you can still see. Hint: Refer to lesson 4
 
 # CHALLENGE 2
 
-Modify the script above, and add a chat trigger called "nuke" that spawns several TNT around you. You'll also need to spawn redstone torches next to the TNT to activate it (try under). Make sure you spawn the TNT far enough away from you it doesn't kill you, but close enough it can take out your enemies!
+Add a new spell called "nuke" that spawns several TNT around you. You'll also need to spawn redstone torches next to the TNT to activate it (try under). Make sure you spawn the TNT far enough away from you it doesn't kill you, but close enough it can take out your enemies!
 
 # CHALLENGE 3
 
-Modify the script above, and add a chat trigger called "jail" that puts your opponent into a bedrock prison. This is similar to the "shield" spell, with a few differences.
-   
-- Instead of using glass, use bedrock.
-- Instead of centering it around YOUR position, you need to center it around your OPPONENT's position!
-- Instead of a single trigger word, you need two. E.g. instead of just "shield" you need "jail seanybob"
+Add a new spell called "bird" that teleports you 100 blocks above your current position, waits 3 seconds, then teleports you back to your original position - thus giving you a bird's eye view of your current location.
 
-When thinking about how to approach this, think of the flow of data. You're passing in your opponent's name via a parameter, so you'll need to extract that. Now, you have your opponent's name, but the getPos() function doesn't have a name parameter! Try thinking back to what you did earlier in the script to create a connection to the minecraft server for a specific name.
+# CHALLENGE 4
+
+Using the player .getRotation() and .getPitch() functions, craft a new spell called "jumper" that teleports you several blocks forward in the direction you are looking. Consider checking if the location you are teleporting to is in the air, and spawning a block first under that position so you don't fall to your death.
