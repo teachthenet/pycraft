@@ -99,3 +99,7 @@ Add a new spell called "bird". This spell should create a block 99 blocks above 
 # CHALLENGE 4
 
 Using the player .getPos() and .getDirection() functions, craft a new spell called "jumper" that teleports forward in the direction you are looking. Allow the user to specify a multiplier for how far forward they want to go (e.g. jumper 20). After calculating the location you will be teleporting the user to, but before you teleport the user, check and see if the block below the position is air. If so, spawn a block first for the user to land on in the new position. Also consider how to stop the user from jumping into mountains!
+
+# CHALLENGE 5
+
+Craft a new spell called "py" that takes as input a string of python code, which it then evals. Now that you don't want to .lower() user input in this case. Bonus points for catching errors and printing them to the minecraft console. 
