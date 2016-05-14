@@ -96,7 +96,7 @@ Run the script like so:
 python script.py
 ```
 
-Note that it will run in an infinite loop. To end it you can hit cmd+C (or control+C), or just close the terminal.
+Note that it will run in an infinite loop. To end it you can hit control+C, or just close the terminal.
 
 
 # CHALLENGES
