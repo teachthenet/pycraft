@@ -90,7 +90,7 @@ Add a new spell called "shield" that builds a glass shield "building" all around
 
 # CHALLENGE 2
 
-Add a new spell called "nuke" that spawns several TNT around you. You'll also need to spawn redstone torches next to the TNT to activate it (try under). Make sure you spawn the TNT far enough away from you it doesn't kill you, but close enough it can take out your enemies!
+Add a new spell called "nuke" that spawns several TNT around you. Spawn Fire (item ID 51) on or below the TNT to activate it. Make sure you spawn the TNT far enough away from you it doesn't kill you, but close enough it can take out your enemies!
 
 # CHALLENGE 3
 
