@@ -8,7 +8,7 @@ The entire process is collaborative - students are able to see each other's prog
 
 All that is needed to get started is downloading the code in this repo and installing java on your system (full instructions in the [setup guide](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/setup.md)).
 
-I have a server up and running with the python api open - all the lessons default to pointing to my server's IP. If you'd like privacy, or if my server is down due to being DOS'ed (easily achievable through it's open python api), you may want to [setup your own server](https://github.com/teachthenet/pycraft-server). If you note my server is down, feel free to open an issue here to inform me to restart it.
+I have a server up and running with the python api open - all the lessons default to pointing to my server's IP. If you'd like privacy, or if my server is down due to being DOS'ed (easily achievable through it's open python api), you may want to [setup your own server](https://github.com/teachthenet/TeachCraft-Server). If you note my server is down, feel free to open an issue here to inform me to restart it.
 
 My Minecraft server is located at
 ```
@@ -36,7 +36,7 @@ My Minecraft server is located at
 [(Advanced) Lesson 8](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson8/lesson8.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
 
 ### Want to host your own server / run a server locally?
-- You want to switch to [this repo](https://github.com/teachthenet/pycraft-server)
+- You want to switch to [this repo](https://github.com/teachthenet/TeachCraft-Server)
 
 ### Minecraft Docs
 - [pi version](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) Has most of the basics of the python api
