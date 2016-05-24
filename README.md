@@ -25,9 +25,9 @@ My Minecraft server is located at
 
 [Lesson 3](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_3.md): Give your character the ability to walk on water (by turning water below your character into ice).
 
-[Lesson 4](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_4.md): Create a building programmatically
+[Lesson 4](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_4.md): Create a building
 
-[Lesson 5](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_5.md): Create a pyramid programmatically
+[Lesson 5](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_5.md): Create a pyramid
 
 [Lesson 6](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_6.md): Use an algorithm to construct the pyramid by analyzing the pattern you discovered in lesson 5!
 
