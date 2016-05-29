@@ -41,6 +41,8 @@ My Minecraft server is located at
 
 [Build An Moving Clock](https://github.com/martinohanlon/minecraft-clock/blob/master/minecraft-clock.py)
 
+[Minecraft Star Wars Animated](https://github.com/martinohanlon/minecraft-starwars)
+
 ### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/TeachCraft-Server)
 
