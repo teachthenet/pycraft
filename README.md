@@ -33,7 +33,11 @@ My Minecraft server is located at
 
 [Lesson 7](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson_7.md): Create a magic system that listens to Minecraft chat, and executes your pre-defined spells!
 
-[(Advanced) Lesson 8](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson8/lesson8.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
+### Examples / Additional Follow-up
+
+[Import Images to Minecraft](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson8/lesson8.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
+
+[Build a mini-game: Lavatrap](http://www.stuffaboutcode.com/2015/09/minecraft-game-tutorial-lavatrap-pycon.html)
 
 ### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/TeachCraft-Server)
