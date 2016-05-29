@@ -39,6 +39,8 @@ My Minecraft server is located at
 
 [Build a mini-game: Lavatrap](http://www.stuffaboutcode.com/2015/09/minecraft-game-tutorial-lavatrap-pycon.html) [Link 2](https://docs.google.com/document/d/19YVesJJFS6cg4Ndep7F-TS02CpS0qpN1hlSlv6mgISQ/edit) [Solution](https://github.com/martinohanlon/minecraft-lavatrap/blob/master/lavatrap.py)
 
+[Build An Moving Clock](https://github.com/martinohanlon/minecraft-clock/blob/master/minecraft-clock.py)
+
 ### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/TeachCraft-Server)
 
