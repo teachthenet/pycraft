@@ -37,7 +37,7 @@ My Minecraft server is located at
 
 [Import Images to Minecraft](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson8/lesson8.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
 
-[Build a mini-game: Lavatrap](http://www.stuffaboutcode.com/2015/09/minecraft-game-tutorial-lavatrap-pycon.html)
+[Build a mini-game: Lavatrap](http://www.stuffaboutcode.com/2015/09/minecraft-game-tutorial-lavatrap-pycon.html) [Link 2](https://docs.google.com/document/d/19YVesJJFS6cg4Ndep7F-TS02CpS0qpN1hlSlv6mgISQ/edit)
 
 ### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/TeachCraft-Server)
