@@ -41,7 +41,9 @@ My Minecraft server is located at
 
 [Build An Moving Clock](https://github.com/martinohanlon/minecraft-clock/blob/master/minecraft-clock.py)
 
-[Minecraft Star Wars Animated](https://github.com/martinohanlon/minecraft-starwars)
+[Star Wars Animated](https://github.com/martinohanlon/minecraft-starwars)
+
+[Auto-bridge](http://www.stuffaboutcode.com/2013/02/raspberry-pi-minecraft-auto-bridge.html) [Link 2](https://github.com/martinohanlon/minecraft-bridge)
 
 ### Want to host your own server / run a server locally?
 - You want to switch to [this repo](https://github.com/teachthenet/TeachCraft-Server)
