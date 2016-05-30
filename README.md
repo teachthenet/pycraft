@@ -35,7 +35,9 @@ My Minecraft server is located at
 
 ### Examples / Additional Follow-up
 
-[Import Images to Minecraft](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/lesson8/lesson8.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
+[Import Image](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/example-import-image/script.py): Learn how to import an image into minecraft pixel art using Python Imaging Library.
+
+[Import 3D Model](https://github.com/teachthenet/TeachCraft-Challenges/blob/master/example-import-3d-image/script.py): Learn how to import a 3d model (such as those used with 3d printers) into Minecraft!
 
 [Build a mini-game: Lavatrap](http://www.stuffaboutcode.com/2015/09/minecraft-game-tutorial-lavatrap-pycon.html) [Link 2](https://docs.google.com/document/d/19YVesJJFS6cg4Ndep7F-TS02CpS0qpN1hlSlv6mgISQ/edit) [Solution](https://github.com/martinohanlon/minecraft-lavatrap/blob/master/lavatrap.py)
 
