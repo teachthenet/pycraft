@@ -1,44 +1,44 @@
-# Lesson 4
+# Lezione 4
 
-#### Goal
-Create a building programmatically
+#### Obiettivo
+Crea un edificio programmaticamente
 
-#### New Concepts
+#### Nuovi Concetti
 
-Variables can refer to each other, similar to algebra
+Le variabili possono fare riferimento ad altre variabili, come si fa in algebra
 ```python
 x = 10
 x2 = x + 5
 ```
-x2 now is 15
+*x2* adesso vale 15
 
 ```python
 mc.setBlocks(x, y, z, x2, y2, z2, block_id)
 ```
 
-- There is a new function we can use called setBlocks.
-- The setBlocks function takes as input the x/y/z coordinates of two opposite corners of a building.
-- For example, if you were to imagine looking at your house from the street, the function would take as input the location of the bottom front right of your house AND the top back left.
-- The function then sets every block inside the cuboid you defined as the block_id you passed in
+- E' disponibile una nuova funzione che possiamo usare chiamata *setBlocks*.
+- La funzione *setBlocks* prende in input le coordinate x/y/z dei due angoli opposti di un edificio. 
+- Per esempio, se tu pensassi di guardare casa tua dalla strada, la funzione prenderebbe in input l'angolo anteriore in basso a destra della tua casa E quello posteriore in alto a sinistra.
+- La funzione quindi imposta ogni blocco all'interno del cuboide che hai definito usando il *block_id* passato
 
-#### Code
-Open up script.py in a code editor. Delete everything in it, we'll be starting from scratch!
+#### Codice
+Apri script.py in un editor di codice. Cancella tutto il contenuto del file, partiremo da zero!
 
 ```python
 import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create(address="199.96.85.3", name="seanybob")
+mc = minecraft.Minecraft.create(address="199.96.85.3", name="mancho")
 ```
-The first 2 lines are similar to the previous lesson. Be sure to replace "seanybob" with your name!
+Le prime 2 righe sono simili alla lezione precedente. Assicurati di sostituire "mancho" con il tuo nome!
 
 ```python
-#Get the player's current position so we can build the pyramid there.
+#Otteniamo la posizione corrente del giocatore cosi' vi possiamo costruire la piramide
 pos = mc.player.getPos()
 x = pos.x
 y = pos.y
 z = pos.z
 ```
 
-This position is the bottom front right of our building - let's put it where our user is standing, so we can find it easy!
+Questa posizione corrisponde all'angolo anteriore in basso a destra del nostro edificio - mettiamolo dov'e' posizionato il nostro utente in modo da poterlo trovare facilmente!
 
 ```python
 x2 = x + 10
@@ -46,34 +46,33 @@ y2 = y + 5
 z2 = z + 8
 ```
 
-- This position is the top back left of our building.
-- Note that we are defining it in relationship to the x/y/z (bottom right front) of our building
-- That is to say, the top back left's x value is the bottom right front's x value + 10.
+- Questa posizione corrisponde all'angolo posteriore in alto a sinistra del nostro edificio.
+- Nota che la stiamo definendo relativamente alla x/y/z (angolo anteriore in basso a destra) dell'edificio.
+- Cioè: il valore di x dell'angolo posteriore in alto a sinistra e' uguale al valore di x dell'angolo anteriore in basso a destra + 10.
 
 ```python
 block_id = 4
 ```
-This is the block id for cobbestone. Swap it to a different block ID if you'd like from [here](http://minecraft-ids.grahamedgecombe.com/).
+Questo e' l'id del blocco di tipo ciottolo. Cambialo, se preferisci, con un ID di blocco diverso scegliendolo [qui](http://minecraft-ids.grahamedgecombe.com/).
 
 ```python
 mc.setBlocks(x, y, z, x2, y2, z2, block_id)
 ```
-The result of the above should give us a building that is 10 blocks by 5 blocks by 8 blocks
+Il risultato di quanto sopra dovrebbe essere un edificio che misura 10 blocchi per 5 blocchi per 8 blocchi.
 
-#### Terminal
+#### Terminale
 
-Run the script like so:
+Esegui lo script con il comando:
 ```shell
 python script.py
 ```
 
-# CHALLENGES
+# SFIDE
 
-- Modify the script above, and change the block used to build the building
-- Make the building twice as tall.
-- Add the code below to the bottom of your script (don't delete anything, just add it) and determine what it does.
+- Modifica lo script per cambiare il blocco usato per costruire l'edificio.
+- Rendi l'edificio alto il doppio.
+- Aggiungi il codice seguente al fondo del tuo script (non cancellare niente, aggiungilo solo) e deduci cosa fa.
 ```python
 mystery_block_id = 0
 mc.setBlocks(x+1, y+1, z+1, x2-1, y2-1, z2-1, mystery_block_id)
 ```
-
